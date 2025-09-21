@@ -137,7 +137,7 @@ def main():
             FEATURE_LABELS['adl'], YES_NO_OPTIONS, format_func=YES_NO_FMT
         )
         marriage = st.selectbox(
-            FEATURE_LABELS['BMI'], MARRIAGE_OPTIONS, format_func=MARRIAGE_FMT
+            FEATURE_LABELS['marriage'], MARRIAGE_OPTIONS, format_func=MARRIAGE_FMT
         )
 
     with col2:
